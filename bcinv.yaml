@@ -1,0 +1,42 @@
+#Adding a comment.
+#adding another comment
+groups:
+  - name: corp
+    facts:
+      adom: corp
+    config:
+      transport: ssh
+      ssh:
+        user:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_user
+        password:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_password
+  - name: root
+    facts:
+      adom: root
+    config:
+      transport: ssh
+      ssh:
+        user:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_user
+        password:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_password
+  - name: field
+    facts:
+      adom: field
+    config:
+      transport: ssh
+      ssh:
+        user:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_user
+        password:
+          _plugin: puppet_connect_data
+          key: fortinet_ssh_password
+config:
+  ssh:
+    host-key-check: false

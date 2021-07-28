@@ -1,0 +1,43 @@
+groups:
+- name: root
+  targets:
+    _plugin: yaml
+    filepath: ~/...../root.yaml
+  config:
+    ssh:
+      connect-timeout: 15
+      host-key-check: false
+      user:
+        _plugin: prompt
+        message: Enter your username
+      password:
+        _plugin: prompt
+        message: Enter your password
+- name: corp
+  targets:
+    _plugin: yaml
+    filepath: ~/......./corphq.yaml
+  config:
+    ssh:
+      connect-timeout: 15
+      host-key-check: false
+      user:
+        _plugin: prompt
+        message: Enter your username
+      password:
+        _plugin: prompt
+        message: Enter your password
+- name: field
+  targets:
+    _plugin: yaml
+    filepath: ~/......./field.yaml
+  config:
+    ssh:
+      connect-timeout: 15
+      host-key-check: false
+      user:
+        _plugin: prompt
+        message: Enter your username
+      password:
+        _plugin: prompt
+        message: Enter your password

@@ -1,0 +1,5 @@
+  fmg-vm64-aws $ --- there are currently 1261 devices/vdoms managed ---
+  fmgfaz-managed  6078625 fg100etk19000001 -       10.0.0.1   nj-fg001-rfwsd                                   root                                      18.00126 (regular) 6.0 mr4 (1803) 
+  fmgfaz-managed  69230  fg100etk19000002 -       10.100.0.1     tx-fg002-rfwsd                                 corp                                     18.00118 (regular) 6.0 mr0 (231)  
+  fmgfaz-managed  66176  fg3h1e5818900003 a-p     10.200.0.1   ak-003-rfwsd                                   field                                           18.00101 (extended) 6.0 mr0 (303)  
+  

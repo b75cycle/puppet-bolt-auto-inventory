@@ -1,0 +1,33 @@
+Started on 172.16.0.1...
+Finished on 172.16.0.1:
+  FMG-VM64-AWS $ --- There are currently 3 devices/vdoms managed ---
+  --- There are currently 3 devices/vdoms count for license ---
+  
+  TYPE            OID    SN               HA      IP              NAME                                             ADOM                                             IPS                FIRMWARE       
+  fmgfaz-managed  6078625 FG100ETK19000001 -       10.0.0.1   NJ-FG001-RFWSD                                   root                                      18.00126 (regular) 6.0 MR4 (1803) 
+  		|- STATUS: dev-db: not modified; conf: in sync; cond: OK; dm: autoupdated; conn: up
+  		|- vdom:[3]root flags:1 adom:root pkg:[installed]default_root wtp:[installed] fsp:[installed]
+  fmgfaz-managed  69230  FG100ETK19000002 -       10.100.0.1     TX-FG002-RFWSD                                 corp                                     18.00118 (regular) 6.0 MR0 (231)  
+  		|- STATUS: dev-db: not modified; conf: in sync; cond: OK; dm: autoupdated; conn: up
+  		|- vdom:[3]root flags:1 adom:corp pkg:[never-installed] fsp:[unknown]
+  fmgfaz-managed  66176  FG3H1E58189000003 a-p     10.200.0.1   AK-003-RFWSD                                   field                                           18.00101 (extended) 6.0 MR0 (303)  
+  		|- STATUS: dev-db: not modified; conf: in sync; cond: OK; dm: autoupdated; conn: up
+  	HA cluster member: FG3H1E5818900003 (primary); conn: up
+  	HA cluster member: FG3H1E5818900004 (secondary 0); conn: up
+  		|- vdom:[3]root flags:1 adom:field pkg:[never-installed] wtp:[unknown] fsp:[unknown]
+  
+  --- There are currently 12 FortiAP managed ---
+  
+  
+  --- There are currently 68 FortiSwitch managed ---
+  
+  
+  --- There are currently 0 FortiExtender managed ---
+  
+  
+  --- End device list ---
+  
+  
+  FMG-VM64-AWS $ 
+Successful on 1 target: 172.16.0.1
+Ran on 1 target in 32.83 sec
